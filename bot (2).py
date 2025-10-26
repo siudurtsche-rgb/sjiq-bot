@@ -2,7 +2,8 @@ import os
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update
 from telegram.ext import Application, CommandHandler, CallbackContext
 
-TOKEN = os.getenv("BOT_TOKEN")  # ← يأخذ التوكن من إعدادات السيرفر
+TOKEN = "8469334524:AAEd5WFYPoLnabYGLqYLt97Xz3eydaZIHy0"
+  # ← يأخذ التوكن من إعدادات السيرفر
 
 async def start(update: Update, context: CallbackContext):
     keyboard = [
